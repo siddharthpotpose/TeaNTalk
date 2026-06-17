@@ -1,0 +1,1257 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Tea N' Talk Caf&eacute;</title>
+  <meta name="description" content="Explore Tea N' Talk's menu: premium tea, coffee, shakes, mocktails, sandwiches, pizzas, burgers, desserts and more." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Tea N' Talk Caf&eacute; | Menu" />
+  <meta property="og:description" content="Browse our signature menu for Nagpur's favourite caf&eacute; — warm teas, artisan coffee, and tasty snacks." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <div class="brand-logo-circle">
+          <img src="assets/images/teaNtalk.PNG" alt="Tea N' Talk logo" />
+        </div>
+        <span class="brand-name">Tea N' Talk</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-2 text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="franchise.html">Franchise</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary-brand ms-lg-3 px-4 py-2 rounded-pill">Book a Table</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero-section text-white">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7" data-aos="fade-up">
+          <span class="section-tag light">Our Menu</span>
+          <h1 class="section-title">Sip, Savor, and Share Your Favourite Bites</h1>
+          <p class="section-sub">Explore Tea N' Talk's signature menu of premium teas, coffees, drinks and comfort food crafted for every mood.</p>
+          <div class="hero-link-group">
+            <a href="#menu" class="btn btn-primary-brand btn-lg rounded-pill">Browse Menu</a>
+            <a href="contact.html" class="btn btn-outline-hero btn-lg rounded-pill">Book a Table</a>
+          </div>
+        </div>
+        <div class="col-lg-5" data-aos="fade-left">
+          <div class="preview-card">
+            <h3>Made For Moments</h3>
+            <p>From Masala Chai to Chicken Tikka Pizza, every item is prepared fresh with bold flavours and warm hospitality.</p>
+            <a href="contact.html" class="link-btn">Order or Visit Us <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section-pad bg-cream">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <span class="section-tag">Our Offerings</span>
+        <h2 class="section-title">Signature Menu</h2>
+        <p class="section-sub mx-auto">From the first sip to the last bite — every item crafted with passion.</p>
+      </div>
+
+      <div class="menu-filters d-flex flex-wrap justify-content-center gap-2 mb-5" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+         <button class="filter-btn" data-filter="hot-beverage">Hot Beverage</button>
+        <button class="filter-btn" data-filter="easy-bites">Easy Bites</button>
+        <button class="filter-btn" data-filter="pizza">Pizza</button>
+        <button class="filter-btn" data-filter="bread-toast">Bread &amp; Toast</button>
+        <button class="filter-btn" data-filter="veg-sandwich">Veg Sandwich</button>
+        <button class="filter-btn" data-filter="burger">Burger</button>
+        <button class="filter-btn" data-filter="kurkure-momos">Kurkure Momos</button>
+        <button class="filter-btn" data-filter="steam-fried-momos">Steam/Fried Momos</button>
+        <button class="filter-btn" data-filter="shakes">Shakes</button>
+        <button class="filter-btn" data-filter="cold-beverage">Cold Beverage</button>
+        <button class="filter-btn" data-filter="coffee">Coffee</button>
+        <button class="filter-btn" data-filter="maggi">Maggi</button>
+        <button class="filter-btn" data-filter="bun-maska">Bun Maska</button>
+        <button class="filter-btn" data-filter="herbal-tea">Herbal Tea</button>
+        <button class="filter-btn" data-filter="pasta">Pasta</button>
+        <button class="filter-btn" data-filter="dessert">Dessert</button>
+        <button class="filter-btn" data-filter="vada-pav">Vada Pav</button>
+        <button class="filter-btn" data-filter="special-snacks">Special Snacks</button>
+      </div>
+
+      <div class="row g-4" id="menuGrid">
+
+         <!-- HOT BEVERAGE -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Adrak Chai</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>Ginger tea brewed with fragrant spices and warm milk.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Elaichi Chai</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>Aromatic cardamom tea with a smooth, comforting finish.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Kulhad Chai</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>Traditional clay-cup chai with a rustic, earthy aroma.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Ghulmi Chai</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>Savour the warming flavour of classic Ghulmi tea.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Black Tea</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>Simple strong black tea brewed to perfection.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in" data-aos-delay="250">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Sugar Free Tea</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>A guilt-free tea option with no sugar added.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="hot-beverage" data-aos="zoom-in" data-aos-delay="300">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#8E44AD18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Gud Ki Chai</h6><span class="price">&#8377;20</span>
+              </div>
+              <p>Sweet jaggery tea made with warming spices.</p>
+              <span class="cat-tag">Hot Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- EASY BITES -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="easy-bites" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>French Fries</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>Crispy golden fries seasoned with our signature spice blend.</p>
+              <span class="cat-tag">Easy Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="easy-bites" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Masala Fries</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>French fries tossed with tangy masala powder for extra kick.</p>
+              <span class="cat-tag">Easy Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="easy-bites" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Ball</h6><span class="price">&#8377;89</span>
+              </div>
+              <p>Crispy fried cheese balls with gooey cheddar centre.</p>
+              <span class="cat-tag">Easy Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="easy-bites" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Peri Peri French Fries</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Spicy peri peri fries served hot with a tangy dip.</p>
+              <span class="cat-tag">Easy Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="easy-bites" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese French Fries</h6><span class="price">&#8377;109</span>
+              </div>
+              <p>Golden fries showered with rich melted cheese.</p>
+              <span class="cat-tag">Easy Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="easy-bites" data-aos="zoom-in" data-aos-delay="250">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Peri Peri Cheese Fries</h6><span class="price">&#8377;119</span>
+              </div>
+              <p>Spicy, cheesy and indulgent — a flavour-packed starter.</p>
+              <span class="cat-tag">Easy Bites</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PIZZA -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Plain Cheese Pizza</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Soft crust topped with melted cheese and classic tomato sauce.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Corn Cheese Pizza</h6><span class="price">&#8377;119</span>
+              </div>
+              <p>Sweet corn and gooey cheese on a crisp pizza base.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Capsi-Corn Pizza</h6><span class="price">&#8377;139</span>
+              </div>
+              <p>Crunchy capsicum and sweet corn with melted cheese.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Paneer Onion Pizza</h6><span class="price">&#8377;149</span>
+              </div>
+              <p>Spiced paneer and onions with our signature pizza sauce.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Tandoori Paneer Pizza</h6><span class="price">&#8377;179</span>
+              </div>
+              <p>Smoky tandoori paneer, peppers and onions on a cheesy crust.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="250">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Malai Paneer Pizza</h6><span class="price">&#8377;199</span>
+              </div>
+              <p>Creamy paneer and herbs with a smooth malai sauce.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="300">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Achari Paneer Pizza</h6><span class="price">&#8377;179</span>
+              </div>
+              <p>Tangy achar spices and paneer with a bold pizza glaze.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="350">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Exotic Delight Pizza</h6><span class="price">&#8377;189</span>
+              </div>
+              <p>Loaded with premium vegetables, cheese and flavour-packed toppings.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="400">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Mushroom Onion Cheese Pizza</h6><span class="price">&#8377;169</span>
+              </div>
+              <p>Mushrooms, onions and extra cheese for a satisfying classic taste.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pizza" data-aos="zoom-in" data-aos-delay="450">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F355;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>TnT Special Pizza</h6><span class="price">&#8377;179</span>
+              </div>
+              <p>Signature house pizza loaded with special toppings and cheese blend.</p>
+              <span class="cat-tag">Pizza</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BREAD & TOAST -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bread-toast" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35E;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Plain Garlic Bread</h6><span class="price">&#8377;69</span>
+              </div>
+              <p>Buttery garlic bread toasted to golden perfection.</p>
+              <span class="cat-tag">Bread &amp; Toast</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bread-toast" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35E;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Chilly Toast</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>Hot cheese and chilly toast for a spicy breakfast treat.</p>
+              <span class="cat-tag">Bread &amp; Toast</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bread-toast" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35E;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Garlic Bread</h6><span class="price">&#8377;89</span>
+              </div>
+              <p>Garlic bread topped with rich melted cheese.</p>
+              <span class="cat-tag">Bread &amp; Toast</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bread-toast" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35E;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Paneer Toast</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Soft toast layered with cheese and spiced paneer.</p>
+              <span class="cat-tag">Bread &amp; Toast</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bread-toast" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F5A62318,#FFFFFF)">&#x1F35E;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Exotic Toast</h6><span class="price">&#8377;109</span>
+              </div>
+              <p>Cheese toast loaded with exotic veggies and spices.</p>
+              <span class="cat-tag">Bread &amp; Toast</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- VEG SANDWICH -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Cheese Grilled Sandwich</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Grilled sandwich filled with vegetables and melted cheese.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Bombay Sandwich</h6><span class="price">&#8377;129</span>
+              </div>
+              <p>Classic Bombay-style sandwich with chutneys and fresh veggies.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Corn Cheese Sandwich</h6><span class="price">&#8377;129</span>
+              </div>
+              <p>Sweet corn and cheese sandwich grilled to buttery perfection.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Tandoori Paneer Sandwich</h6><span class="price">&#8377;197</span>
+              </div>
+              <p>Spicy tandoori paneer with fresh greens in a grilled sandwich.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Makhani Paneer Sandwich</h6><span class="price">&#8377;169</span>
+              </div>
+              <p>Creamy makhani paneer between toasted bread slices.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in" data-aos-delay="250">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Paneer Peri Peri Sandwich</h6><span class="price">&#8377;179</span>
+              </div>
+              <p>Paneer tossed in peri peri spices and grilled with veggies.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="veg-sandwich" data-aos="zoom-in" data-aos-delay="300">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#4CAF5018,#FFFFFF)">&#x1F96A;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Tea N Talk Spl Sandwich</h6><span class="price">&#8377;179</span>
+              </div>
+              <p>House special sandwich with signature sauces and grilled paneer.</p>
+              <span class="cat-tag">Veg Sandwich</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BURGER -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="burger" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F354;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Burger</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>Fresh vegetable patty with lettuce, tomato and house sauce.</p>
+              <span class="cat-tag">Burger</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="burger" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F354;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Cheese Burger</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Creamy cheese melted over a juicy veggie patty.</p>
+              <span class="cat-tag">Burger</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="burger" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F354;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Double Tikki Burger</h6><span class="price">&#8377;119</span>
+              </div>
+              <p>Two crisp patties stacked with cheese and smoky burger sauce.</p>
+              <span class="cat-tag">Burger</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- KURKURE MOMOS -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="kurkure-momos" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Momos</h6><span class="price">&#8377;109</span>
+              </div>
+              <p>Crunchy kurkure-style veg momos with tangy dipping sauce.</p>
+              <span class="cat-tag">Kurkure Momos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="kurkure-momos" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Paneer Momos</h6><span class="price">&#8377;119</span>
+              </div>
+              <p>Soft paneer-filled dumplings with a crispy shell.</p>
+              <span class="cat-tag">Kurkure Momos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="kurkure-momos" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Corn Momos</h6><span class="price">&#8377;129</span>
+              </div>
+              <p>Cheesy corn and veg filling wrapped in golden bite-sized momos.</p>
+              <span class="cat-tag">Kurkure Momos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEAM / FRIED MOMOS -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="steam-fried-momos" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#3498DB18,#FFFFFF)">&#x1F95F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Momos</h6><span class="price">&#8377;99 / &#8377;79</span>
+              </div>
+              <p>Steam or fried veg momos served with spicy chutney.</p>
+              <span class="cat-tag">Steam / Fried Momos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="steam-fried-momos" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#3498DB18,#FFFFFF)">&#x1F95F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Paneer Momos</h6><span class="price">&#8377;109 / &#8377;89</span>
+              </div>
+              <p>Soft paneer momos served either steamed or fried.</p>
+              <span class="cat-tag">Steam / Fried Momos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="steam-fried-momos" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#3498DB18,#FFFFFF)">&#x1F95F;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Corn Momos</h6><span class="price">&#8377;119 / &#8377;99</span>
+              </div>
+              <p>Cheesy corn momos available steamed or fried.</p>
+              <span class="cat-tag">Steam / Fried Momos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- SHAKES -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="shakes" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95B;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Chocolate Shake</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Rich chocolate shake blended with milk and ice cream.</p>
+              <span class="cat-tag">Shakes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="shakes" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95B;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Kitkat Shake</h6><span class="price">&#8377;119</span>
+              </div>
+              <p>Crunchy KitKat pieces blended with creamy shake.</p>
+              <span class="cat-tag">Shakes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="shakes" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95B;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Oreo Shake</h6><span class="price">&#8377;119</span>
+              </div>
+              <p>Oreo cookies blended into a thick, creamy milkshake.</p>
+              <span class="cat-tag">Shakes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="shakes" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F95B;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Brownie Shake</h6><span class="price">&#8377;129</span>
+              </div>
+              <p>Fudgy brownie pieces blended with ice cream for indulgence.</p>
+              <span class="cat-tag">Shakes</span>
+            </div>
+          </div>
+        </div>
+
+       
+
+        <!-- COLD BEVERAGE -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="cold-beverage" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#1ABC9C18,#FFFFFF)">&#x1F9CB;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cold Coffee</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>A chilled coffee blend with just the right sweetness.</p>
+              <span class="cat-tag">Cold Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="cold-beverage" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#1ABC9C18,#FFFFFF)">&#x1F9CB;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cold Choco Latte</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Chocolate latte served chilled with rich cocoa notes.</p>
+              <span class="cat-tag">Cold Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="cold-beverage" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#1ABC9C18,#FFFFFF)">&#x1F9CB;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Choco Frappe</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Frosty chocolate frappe topped with chocolate syrup.</p>
+              <span class="cat-tag">Cold Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="cold-beverage" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#1ABC9C18,#FFFFFF)">&#x1F9CB;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cold Coffee with Ice Cream</h6><span class="price">&#8377;109</span>
+              </div>
+              <p>Classic cold coffee topped with a scoop of creamy ice cream.</p>
+              <span class="cat-tag">Cold Beverage</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- COFFEE -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="coffee" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#6C5B7B18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Hot Coffee</h6><span class="price">&#8377;25</span>
+              </div>
+              <p>Warm, comforting hot coffee brewed fresh.</p>
+              <span class="cat-tag">Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="coffee" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#6C5B7B18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Black Coffee</h6><span class="price">&#8377;20</span>
+              </div>
+              <p>Strong black coffee with a bold, clean finish.</p>
+              <span class="cat-tag">Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="coffee" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#6C5B7B18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Vanilla Coffee</h6><span class="price">&#8377;40</span>
+              </div>
+              <p>Smooth coffee flavoured with sweet vanilla.</p>
+              <span class="cat-tag">Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="coffee" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#6C5B7B18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Hazelnut Coffee</h6><span class="price">&#8377;40</span>
+              </div>
+              <p>Nutty hazelnut flavour with rich coffee aroma.</p>
+              <span class="cat-tag">Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="coffee" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#6C5B7B18,#FFFFFF)">&#x2615;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Chocolate Coffee</h6><span class="price">&#8377;50</span>
+              </div>
+              <p>Chocolate and coffee blended for a delicious twist.</p>
+              <span class="cat-tag">Coffee</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAGGI -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Organic Masala Maggi</h6><span class="price">&#8377;49</span>
+              </div>
+              <p>Classic masala Maggi made with a homely spice blend.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Bomb Maggi</h6><span class="price">&#8377;69</span>
+              </div>
+              <p>Loaded with vegetables and spicy flavour bombs.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Burst Maggi</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>Creamy Maggi with melted cheese for every bite.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="150">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Nagpuri Saoji Maggi</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>Regional Nagpuri flavour with bold saoji spices.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="200">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Peri Peri Punch</h6><span class="price">&#8377;79</span>
+              </div>
+              <p>Spicy peri peri Maggi with punchy heat and flavour.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="250">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Veg Cheese Maggi</h6><span class="price">&#8377;89</span>
+              </div>
+              <p>Vegetable Maggi topped with melted cheese.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="300">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Corn Craze Cheese Maggi</h6><span class="price">&#8377;89</span>
+              </div>
+              <p>Cheesy Maggi loaded with sweet corn and spice.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="350">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Paneer-E-Maggi</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Paneer pieces tossed into spicy Maggi noodles.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="maggi" data-aos="zoom-in" data-aos-delay="400">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#F39C1218,#FFFFFF)">&#x1F35C;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>TnT Special Maggi</h6><span class="price">&#8377;109</span>
+              </div>
+              <p>Signature chef’s special Maggi with extra toppings.</p>
+              <span class="cat-tag">Maggi</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUN MASKA -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bun-maska" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#D6891018,#FFFFFF)">&#x1F956;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Butter Bun Maska</h6><span class="price">&#8377;25</span>
+              </div>
+              <p>Soft bun slathered with rich buttery maska.</p>
+              <span class="cat-tag">Bun Maska</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bun-maska" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#D6891018,#FFFFFF)">&#x1F956;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Jam Bun Maska</h6><span class="price">&#8377;30</span>
+              </div>
+              <p>Sweet jam and butter on a soft bun for a classic snack.</p>
+              <span class="cat-tag">Bun Maska</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="bun-maska" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#D6891018,#FFFFFF)">&#x1F956;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Chocolate Maska</h6><span class="price">&#8377;40</span>
+              </div>
+              <p>Sweet chocolate spread with buttery maska in a warm bun.</p>
+              <span class="cat-tag">Bun Maska</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERBAL TEA -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="herbal-tea" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#27AE6018,#FFFFFF)">&#x1F375;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Lemon Tea</h6><span class="price">&#8377;15</span>
+              </div>
+              <p>Refreshing lemon tea with a zesty, tangy edge.</p>
+              <span class="cat-tag">Herbal Tea</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="herbal-tea" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#27AE6018,#FFFFFF)">&#x1F375;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Green Tea</h6><span class="price">&#8377;20</span>
+              </div>
+              <p>Light, healthy green tea brewed to gentle perfection.</p>
+              <span class="cat-tag">Herbal Tea</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PASTA -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pasta" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F35D;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>White Sauce Pasta</h6><span class="price">&#8377;140</span>
+              </div>
+              <p>Creamy white sauce pasta with herbs and vegetables.</p>
+              <span class="cat-tag">Pasta</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pasta" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F35D;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Red Sauce Pasta</h6><span class="price">&#8377;150</span>
+              </div>
+              <p>Tomato-based pasta with robust Italian flavour.</p>
+              <span class="cat-tag">Pasta</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="pasta" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#9B59B618,#FFFFFF)">&#x1F35D;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Pink Sauce Pasta</h6><span class="price">&#8377;180</span>
+              </div>
+              <p>Rich combination of tomato and cream sauce with pasta.</p>
+              <span class="cat-tag">Pasta</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESSERT -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="dessert" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E67E2218,#FFFFFF)">&#x1F370;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Choco Lava Cake</h6><span class="price">&#8377;55</span>
+              </div>
+              <p>Warm chocolate cake with a molten centre.</p>
+              <span class="cat-tag">Dessert</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="dessert" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E67E2218,#FFFFFF)">&#x1F370;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Chocolates Brownie</h6><span class="price">&#8377;99</span>
+              </div>
+              <p>Rich chocolate brownie perfect with a hot coffee.</p>
+              <span class="cat-tag">Dessert</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- VADA PAV -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="vada-pav" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F32D;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Mumbai Vada Pav</h6><span class="price">&#8377;30</span>
+              </div>
+              <p>Classic Mumbai street-style vada pav with chutneys.</p>
+              <span class="cat-tag">Vada Pav</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="vada-pav" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F32D;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Schezwan Vada Pav</h6><span class="price">&#8377;40</span>
+              </div>
+              <p>Spicy schezwan twist on the popular vada pav.</p>
+              <span class="cat-tag">Vada Pav</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="vada-pav" data-aos="zoom-in" data-aos-delay="100">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#E74C3C18,#FFFFFF)">&#x1F32D;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Cheese Vada Pav</h6><span class="price">&#8377;50</span>
+              </div>
+              <p>Vada pav stuffed with cheese and green chutney.</p>
+              <span class="cat-tag">Vada Pav</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- SPECIAL SNACKS -->
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="special-snacks" data-aos="zoom-in">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#2ECC7118,#FFFFFF)">&#x1F959;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Sabudana Vada</h6><span class="price">&#8377;50</span>
+              </div>
+              <p>Crispy sabudana vada served with mint chutney.</p>
+              <span class="cat-tag">Special Snacks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 menu-item" data-category="special-snacks" data-aos="zoom-in" data-aos-delay="50">
+          <div class="menu-card">
+            <div class="menu-emoji" style="background:linear-gradient(135deg,#2ECC7118,#FFFFFF)">&#x1F959;</div>
+            <div class="menu-body">
+              <div class="d-flex justify-content-between align-items-start">
+                <h6>Hara Bhara Kabab</h6><span class="price">&#8377;60</span>
+              </div>
+              <p>Healthy spinach and peas kabab with spicy chutney.</p>
+              <span class="cat-tag">Special Snacks</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5 py-5">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-logo-circle">
+              <img src="assets/images/teaNtalk.PNG" alt="Tea N' Talk logo" />
+            </div>
+            <span class="brand-name">Tea N' Talk</span>
+          </div>
+          <p class="text-white-50 small mb-4">Nagpur's favourite caf&eacute; for premium tea, artisan coffee, and warm conversations. Two branches, one community.</p>
+          <div class="social-links d-flex gap-2">
+            <a href="https://www.instagram.com/tea_n_talk_dighori/" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="footer-heading">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="franchise.html">Franchise</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="footer-heading">Company</h6>
+          <ul class="footer-links">
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="footer-heading">Newsletter</h6>
+          <p class="text-white-50 small mb-3">Get updates on new menu items, offers, and caf&eacute; news.</p>
+          <form class="newsletter-form" onsubmit="this.reset(); return false;">
+            <input type="email" placeholder="your@email.com" required />
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="mt-3">
+            <small class="text-white-50">Medical Square &nbsp;&middot;&nbsp; Dighori</small>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="mb-0 text-white-50 small">&copy; 2025 Tea N' Talk Caf&eacute;. All rights reserved. Made with &hearts; in Nagpur.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <a id="whatsappBtn" class="whatsapp-fab" href="https://wa.me/917385494276?text=Hi%20Tea%20N'%20Talk%2C%20I%27d%20like%20to%20inquire%20about%20bookings" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+</body>
+
+</html>
