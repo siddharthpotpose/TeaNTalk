@@ -137,11 +137,31 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 });
 
 /* =========================================================
-   GALLERY LIGHTBOX
+   GALLERY LIGHTBOX — Enhanced with Navigation
    ========================================================= */
-function openLightbox(src) {
+const galleryImages = [];
+let currentImageIndex = 0;
+
+function initGalleryLightbox() {
+  const items = document.querySelectorAll('.gallery-item');
+  items.forEach((item, index) => {
+    const fullSrc = item.dataset.full;
+    if (fullSrc) {
+      galleryImages.push(fullSrc);
+    }
+    item.addEventListener('click', () => openLightbox(fullSrc, index));
+  });
+}
+
+function openLightbox(src, index = 0) {
   const lb = document.getElementById('lightbox');
-  document.getElementById('lightboxImg').src = src;
+  const lbImg = document.getElementById('lightboxImg');
+  currentImageIndex = galleryImages.indexOf(src);
+  if (currentImageIndex === -1) currentImageIndex = 0;
+  lbImg.src = src;
+  lbImg.style.animation = 'none';
+  void lbImg.offsetWidth;
+  lbImg.style.animation = '';
   lb.classList.add('active');
   document.body.style.overflow = 'hidden';
 }
@@ -149,9 +169,36 @@ function closeLightbox() {
   document.getElementById('lightbox').classList.remove('active');
   document.body.style.overflow = '';
 }
+function navigateLightbox(direction) {
+  if (galleryImages.length === 0) return;
+  currentImageIndex = (currentImageIndex + direction + galleryImages.length) % galleryImages.length;
+  const lbImg = document.getElementById('lightboxImg');
+  lbImg.style.opacity = '0';
+  lbImg.style.transform = direction > 0 ? 'translateX(-20px)' : 'translateX(20px)';
+  setTimeout(() => {
+    lbImg.src = galleryImages[currentImageIndex];
+    lbImg.style.opacity = '1';
+    lbImg.style.transform = 'translateX(0)';
+  }, 150);
+}
+
+document.getElementById('lbClose')?.addEventListener('click', closeLightbox);
+document.getElementById('lbPrev')?.addEventListener('click', () => navigateLightbox(-1));
+document.getElementById('lbNext')?.addEventListener('click', () => navigateLightbox(1));
+
+document.getElementById('lightbox')?.addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeLightbox();
+});
+
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeLightbox();
+  if (document.getElementById('lightbox')?.classList.contains('active')) {
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
 });
+
+initGalleryLightbox();
 
 /* =========================================================
    SWIPER — Reviews Carousel
